@@ -1,0 +1,127 @@
+@import url('//fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+@import url('https://cdn.jsdelivr.net/gh/fonts-archive/NanumMyeongjo-YetHangul/NanumMyeongjo-YetHangul.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.font01{font-family: 'NanumMyeongjoYetHangul'; font-size: 16px; line-height: 32px; color: white; text-shadow: 3px 4px 6px #B0ACA2;}
+.font02{font-family: 'NanumMyeongjoYetHangul'; font-size: 15px; line-height: 22px; color: white;}
+.font03{font-family: 'NanumMyeongjoYetHangul'; font-size: 25px; line-height: 22px; color: white;}
+.font04{font-family: 'NanumMyeongjo'; font-weight:500; font-size: 18px; line-height: 22px; color: white; text-shadow: 3px 4px 6px #B0ACA2;}
+.font05{font-family: 'NanumMyeongjo'; font-size: 15px; line-height: 21px; color: white;}
+.font06{font-family: 'NanumMyeongjoYetHangul'; font-size: 12px; line-height: 21px; color: white;}
+.font07{font-family: 'NanumMyeongjoYetHangul'; font-size: 24px; line-height: 40px; color: white; text-shadow: 5px, 3px, 10px #FFB900;}
+
+
+
+/*메인페이지*/
+.logo{width: 0%; height: 164px; align-content: center; padding-top: 354px; position: absolute; z-index: 10;}
+.box00{width:430px; background-color: #1D1A13;}
+.box01{height: 932px; display: flex; justify-content: space-around; margin: 0 auto; background-image: url(img/bg1.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
+
+.box01_c01{text-align: left; width: 157px; height: 63px; padding-left: 50px; padding-top: 82px;}
+.box01_c02{text-align: right; width: 159px; height: 54px; padding-right: 50px; padding-top: 660px;}
+
+.box02{height: 1050px; background-image: url(img/bg02.png); background-repeat: no-repeat;}
+.box02_c01{padding-left: 50px; padding-top: 60px;}
+.box02_c02{padding-top: 30px; align-content: center;}
+.box02_c03{text-align: right; width: 240px; height: 40px; padding-top: 30px; padding-left: 32%;}
+.box02_c04{padding-top: 60px; padding-left: 50px;}
+.box02_c05{padding-top: 40px; align-content: center;}
+.box02_c06{text-align: right; padding-right: 50px; padding-top: 20px;}
+.box02_c07{padding-top: 70px; align-content: center;}
+.box02_c08{text-align: center; margin: -10px;}
+
+.box03{height: 400px; background: linear-gradient(#BD7409, #5F3A05); background-repeat: no-repeat;}
+.box03_c01{padding-top: 50px; text-align: center;}
+.box03_c02{padding-top: 50px; text-align: center;}
+
+footer{width: 430px; height: 331px; background-color: #2e1f0c; color: white;}
+.f_logo{padding-top: 20px; text-align: center;}
+.f0{width: 370px; font-family: 'NanumGothic'; padding-left: 25px;}
+.f00{width: 370px; font-family: 'NanumMyeongjo'; padding-left: 25px; color: antiquewhite;}
+.f1{font-weight: bold;}
+.f2{padding-top: 5px; color: #B0ACA2;}
+.f3{padding-top: 12px; font-weight: bold;}
+.f4{padding-top: 25px; font-size: 9.5px; text-align: center;}
+.f5{font-size: 9.5px; text-align: right; padding-top: 5px;}
+.f1, .f2, .f3{font-size: 14px;}
+
+/*여기부터 서브페이지 시작*/
+.box04{background-color: #BD7409; background-position: center; background-repeat: no-repeat; background-size: cover; text-align: center; padding-top: 10px;}
+
+.box05{height: 685px; background-image: url(img/bg03.png); background-repeat: no-repeat;}
+.box05_c01{padding-top: 480px; margin-left: 30px;}
+.box05_c02{padding-top: 20px; margin-left: 30px; margin-right: 30px;}
+
+.box06{height: 685px; background-image: url(img/bg04.png); background-repeat: no-repeat;}
+.box06_c01{padding-top: 540px; margin-left: 30px;}
+.box06_c02{padding-top: 20px; margin-left: 30px; margin-right: 30px;}
+
+.box07{height: 685px; background-image: url(img/bg05.png); background-repeat: no-repeat;}
+.box07_c01{padding-top: 500px; margin-left: 30px;}
+.box07_c02{padding-top: 20px; margin-left: 30px; margin-right: 30px; margin-bottom: 40px;}
+
+.box08{height: 685px; background-image: url(img/bg06.png); background-repeat: no-repeat; clear: both;}
+.box08_c01{padding-top: 450px; margin-left: 30px;}
+.box08_c02{padding-top: 20px; margin-left: 30px; margin-right: 30px; margin-bottom: 40px;}
+
+.box09{height: 685px; background-image: url(img/bg07.png); background-repeat: no-repeat; clear: both;}
+.box09_c01{padding-top: 500px; margin-left: 30px;}
+.box09_c02{padding-top: 20px; margin-left: 30px; margin-right: 30px; margin-bottom: 35px;}
+
+.box10{background: linear-gradient(#BD7409, #5F3A05); padding-top: 40px; padding-bottom: 30px; text-align: center;}
+
+
+
+/*여기부터 서브페이지2 시작*/
+.box11{background: linear-gradient( #BD7409,#1D1A13); background-position: center; background-repeat: no-repeat; background-size: cover; text-align: center; padding-top: 10px;}
+
+.f0{font-family: 'NanumMyeongjo';  line-height: 18px;}
+.f01{font-size: 25px; font-weight: bold; color: white;}
+.f02{font-size: 20px; color: white;}
+.f03{font-size: 10px; color: white;}
+.f04{font-size: 17px; color:antiquewhite;}
+.f05{font-size: 14px; color:antiquewhite;}
+
+.box12{height: 504px; display: flex; flex-direction: column; padding-top: 50px; text-align: left;}
+.box12_c01{display:list-item; padding-left: 25px;}
+.box12_c02{padding-top: 15px;}
+.box12_c03{padding-top: 60px;}
+.box12_c04{padding-top: 150px; padding-left: 30px;}
+.box12_c05{position:absolute; text-align: right; padding-left: 180px;}
+
+.box13{height: 504px; display: flex; flex-direction: column; padding-top: 50px; text-align: right;}
+.box13_c01{display:list-item; padding-left: 25px; padding-right: 25px;}
+.box13_c02{padding-top: 15px;}
+.box13_c03{padding-top: 80px;}
+.box13_c04{padding-top: 30px; padding-right: 30px;}
+.box13_c05{position:absolute; text-align: left;}
+
+.box14{height: 504px; display: flex; flex-direction: column; padding-top: 50px; text-align: left;}
+.box14_c01{display:list-item; padding-left: 25px;}
+.box14_c02{padding-top: 15px;}
+.box14_c03{padding-top: 60px;}
+.box14_c04{padding-top: 80px; padding-left: 10px;}
+.box14_c05{position:absolute; text-align: right; padding-left: 180px;}
+
+.box15{height: 504px; display: flex; flex-direction: column; padding-top: 50px; text-align: right;}
+.box15_c01{display:list-item; padding-left: 25px; padding-right: 25px;}
+.box15_c02{padding-top: 15px;}
+.box15_c03{padding-top: 80px;}
+.box15_c04{padding-top: 70px; padding-right: 10px; padding-bottom: 40px;}
+.box15_c05{position:absolute; text-align: left;}
+
+.vtxt{
+    height: 200px;
+    text-align:center;
+    position: absolute;
+}
+
+.box17{background: linear-gradient(#1D1A13, #BD7409); padding-top: 40px; padding-bottom: 30px; text-align: center;}
